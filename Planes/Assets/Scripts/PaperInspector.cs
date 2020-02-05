@@ -88,13 +88,5 @@ public class PapertInspector : Editor
             selectedIndex = -1;
             mesh.ClearAllData();
         }
-
-        if (mesh.editType.ToString() != "None" && !Application.isPlaying)
-        {
-            if (GUILayout.Button("Show Normals"))
-            {
-                mesh.ShowNormals();
-            }
-        }
     }
 }

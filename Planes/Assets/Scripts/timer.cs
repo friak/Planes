@@ -8,6 +8,7 @@ public class timer : MonoBehaviour
 {
     private Text timerText;
     private float levelTime;
+    public GameObject Paper;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class timer : MonoBehaviour
 
     public void ResetTimer()
     {
-        levelTime = 150f;
+        levelTime = 10f;
     }
 
     // Update is called once per frame
@@ -27,12 +28,11 @@ public class timer : MonoBehaviour
         if (levelTime >= 0.0)
         {
             levelTime -= Time.deltaTime;
-            timerText.text = "Time Left:  " + Mathf.Round(levelTime);
+            timerText.text = "Puzzle Restrarting in:  " + Mathf.Round(levelTime);
         }
         else
         {
-
-            SceneManager.LoadScene("GameOver");
+            Paper.GetComponent<PaperMesh>().ClearAllData();
         }
     }
 }

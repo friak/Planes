@@ -47,6 +47,8 @@ public class PaperMesh : MonoBehaviour
     float runtime = 0f;
     int currentIndex = 0;
 
+    public GameObject Win;
+
 
 
     void Start()
@@ -130,8 +132,7 @@ public class PaperMesh : MonoBehaviour
 
         if (11 == selectedIndices.Count)
         {
-            Instantiate.GameObeject;
-            ClearAllData();
+            Instantiate(Win, new Vector3(0, 0, 0), Quaternion.identity);
         }
     }
 
@@ -158,6 +159,7 @@ public class PaperMesh : MonoBehaviour
 
     public void ClearAllData()
     {
+        Destroy(Win);
         selectedIndices = new List<int>();
         targetIndex = 0;
         targetVertex = Vector3.zero;

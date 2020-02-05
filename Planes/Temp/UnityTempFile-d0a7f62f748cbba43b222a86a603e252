@@ -302,3 +302,5 @@ Assets\Scripts\MeshScript.cs
 Assets\Scripts\MeshStudy.cs
 Assets\Scripts\ObjectViewer.cs
 Assets\Scripts\PaperInspector.cs
+Assets\Scripts\PaperMesh.cs
+Assets\Scripts\timer.cs
