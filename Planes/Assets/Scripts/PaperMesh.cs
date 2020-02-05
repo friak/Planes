@@ -48,6 +48,7 @@ public class PaperMesh : MonoBehaviour
     int currentIndex = 0;
 
     public GameObject Win;
+    public GameObject ShotPoint;
 
 
 
@@ -130,9 +131,11 @@ public class PaperMesh : MonoBehaviour
             }
         }
 
-        if (11 == selectedIndices.Count)
+        if (selectedIndices.Count == 11)
         {
-            Instantiate(Win, new Vector3(0, 0, 0), Quaternion.identity);
+            Debug.Log("Win!");
+            Instantiate(Win);
+            Win.transform.SetParent(ShotPoint.transform);
         }
     }
 

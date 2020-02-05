@@ -49,14 +49,14 @@ public class PapertInspector : Editor
     {
         Vector3 point = handleTransform.TransformPoint(mesh.oVertices[index]);
 
-        // Unselected vertex
+        // Select vertex
         if (!mesh.selectedIndices.Contains(index))
         {
+            Handles.color = Color.blue;
             if (Handles.Button(point, handleRotation, mesh.pickSize, mesh.pickSize,
                 Handles.DotHandleCap)) //1
             {
                 mesh.selectedIndices.Add(index);
-                Handles.color = Color.blue;
             }
             if (Handles.Button(point, handleRotation, mesh.pickSize, mesh.pickSize, Handles.DotHandleCap))
             {
