@@ -40,10 +40,10 @@ public class PaperMesh : MonoBehaviour
     public float radiusofeffect = 0.3f;
     public float pullvalue = 0.3f;
 
-    // Animation settings
+   //  Animation settings
     public float duration = 1.2f;
     bool isAnimate = false;
-    float starttime = 0f;
+   float starttime = 0f;
     float runtime = 0f;
     int currentIndex = 0;
 
@@ -60,7 +60,7 @@ public class PaperMesh : MonoBehaviour
     public void Init()
     {
         oFilter = GetComponent<MeshFilter>();
-        currentIndex = 0;
+//        currentIndex = 0;
 
         if (editType == EditType.AddIndices)
         {

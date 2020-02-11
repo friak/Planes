@@ -405,6 +405,8 @@
     <Compile Include="Assets\Scripts\ObjectViewer.cs" />
     <Compile Include="Assets\Scripts\PaperInspector.cs" />
     <Compile Include="Assets\Scripts\PaperMesh.cs" />
+    <Compile Include="Assets\Scripts\select_vertices.cs" />
+    <Compile Include="Assets\Scripts\selected.cs" />
     <Compile Include="Assets\Scripts\timer.cs" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
