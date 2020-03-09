@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AssetStore\Free Low Poly Chess Set\Example\Scripts\CameraRotate.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -394,14 +395,15 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
+    <Compile Include="Assets\Scripts\BackgroundColorChange.cs" />
     <Compile Include="Assets\Scripts\Curve.cs" />
-    <Compile Include="Assets\Scripts\CustomHeart.cs" />
-    <Compile Include="Assets\Scripts\CustomHeartInspector.cs" />
-    <Compile Include="Assets\Scripts\HeartMesh.cs" />
-    <Compile Include="Assets\Scripts\HeartMeshInspector.cs" />
+    <Compile Include="Assets\Scripts\Cutter.cs" />
+    <Compile Include="Assets\Scripts\DrawCut.cs" />
+    <Compile Include="Assets\Scripts\GeneratedMesh.cs" />
     <Compile Include="Assets\Scripts\MeshInspector.cs" />
-    <Compile Include="Assets\Scripts\MeshScript.cs" />
     <Compile Include="Assets\Scripts\MeshStudy.cs" />
+    <Compile Include="Assets\Scripts\MeshTriangle.cs" />
+    <Compile Include="Assets\Scripts\MouseClickCut.cs" />
     <Compile Include="Assets\Scripts\ObjectViewer.cs" />
     <Compile Include="Assets\Scripts\PaperInspector.cs" />
     <Compile Include="Assets\Scripts\PaperMesh.cs" />
@@ -440,6 +442,7 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\AvatarEyeLens.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\NOTICE.txt" />
+    <None Include="Assets\AssetStore\Free Low Poly Chess Set\README.txt" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />

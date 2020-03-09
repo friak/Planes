@@ -39,7 +39,7 @@ public class select_vertices : MonoBehaviour
 
             sphere.transform.localScale = new Vector3(.005f, .005f, .005f);
             spheres.Add(sphere);
-            //sphere.GetComponent<SphereCollider>().isTrigger = true;
+ 
             sphere.GetComponent<Renderer>().enabled = false;
             sphere.AddComponent<selected>();
         }
