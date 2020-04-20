@@ -95,6 +95,7 @@
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRControllerHelper.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRCubemapCapture.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRCursor.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRCustomSkeleton.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRDebugInfo.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGazePointer.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRGearVrControllerTest.cs" />
@@ -124,6 +125,7 @@
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSkeleton.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSkeletonRenderer.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRSystemPerfMetrics.cs" />
+    <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRVignette.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
     <Compile Include="Assets\Oculus\VR\ThirdParty\openvr_api.cs" />
     <Compile Include="Assets\Oculus\VR\ThirdParty\SimpleJSON.cs" />
@@ -131,6 +133,7 @@
     <None Include="Assets\Oculus\VR\Resources\OVRMRUnlitTransparent.shader" />
     <None Include="Assets\Oculus\VR\Resources\OVRMRChromaKey.cginc" />
     <None Include="Assets\Oculus\VR\LICENSE.txt" />
+    <None Include="Assets\Oculus\VR\Shaders\OVRVignette.shader" />
     <None Include="Assets\Oculus\VR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\Oculus\VR\Resources\Cubemap Blit.shader" />
     <None Include="Assets\Oculus\VR\NOTICE.txt" />
