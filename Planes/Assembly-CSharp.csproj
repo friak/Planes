@@ -403,6 +403,7 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Scripts\bg_rotation.cs" />
+    <Compile Include="Assets\Scripts\followPhysics.cs" />
     <Compile Include="Assets\Scripts\Mesh Slicing Example\BackgroundColorChange.cs" />
     <Compile Include="Assets\Scripts\Mesh Slicing Example\Cutter.cs" />
     <Compile Include="Assets\Scripts\Mesh Slicing Example\DrawCut.cs" />
