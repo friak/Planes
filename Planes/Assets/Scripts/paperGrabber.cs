@@ -1,0 +1,30 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class paperGrabber : OVRGrabbable
+{
+
+    public Transform handler;
+
+    public override void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity)
+    {
+        base.GrabEnd(linearVelocity, angularVelocity);
+
+        transform.position = handler.position;
+        transform.rotation = handler.rotation;
+
+        Rigidbody rbhandler = handler.GetComponent<Rigidbody>();
+        rbhandler.velocity = Vector3.zero;
+        rbhandler.angularVelocity = Vector3.zero;
+    }
+    
+
+    private void Update()
+    {
+        if(Vector3.Distance(handler.position,transform.position) > .4f)
+        {
+            grabbedBy.ForceRelease(this);
+        }
+    }
+}

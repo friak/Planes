@@ -15,8 +15,9 @@ public class followPhysics : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         rb.MovePosition(target.transform.position);
+        //transform.position = target.transform.position;
     }
 }
