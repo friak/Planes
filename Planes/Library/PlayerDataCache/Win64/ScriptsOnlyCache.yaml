@@ -7,8 +7,10 @@ ScriptsOnlyBuild:
     - OVRTouchSample.HandPose
     - OculusSampleFramework.GrabManager
     - OvrAvatarSettings
+    - _AudioManager
     - bg_rotation
     - followPhysics
+    - instantiateHint
     - lookatTarget
     - paperGrabber
     - photonLobby
@@ -22,8 +24,6 @@ ScriptsOnlyBuild:
     - OVRPlayerController
     - OVRSceneSampleController
     - OVRScreenFade
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
@@ -79,6 +79,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Planes.unity:
     - Class: 1
@@ -251,6 +253,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16954}
     - Class: 114
       Script: {instanceID: 16962}
+    - Class: 114
+      Script: {instanceID: 78382}
+    - Class: 114
+      Script: {instanceID: 103198}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3042,6 +3048,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Oculus.dll
     namespaceName: Unity.XR.Oculus
     className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 2bc11fa727190548e5cedeab6bd8fc6e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: instantiateHint
+  - hash:
+      serializedVersion: 2
+      Hash: 6faca024be6d588a03b35bc4fdb48d76
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: _AudioManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Planes.unity
