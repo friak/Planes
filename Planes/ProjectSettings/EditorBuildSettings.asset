@@ -54,4 +54,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Planes.unity
     guid: 2f58fdb9ba9763c4b81ce0044b8f792f
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 18e5b6cf91be9034c8acfc3d1b0e1e0f,
+      type: 2}

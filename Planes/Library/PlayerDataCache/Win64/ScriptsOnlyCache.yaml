@@ -56,6 +56,11 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -3013,6 +3018,30 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 6b2083ba3481347351531f6ae1d70bb2
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
   platform: 19
   scenePathNames:
   - Assets/Scenes/Planes.unity
