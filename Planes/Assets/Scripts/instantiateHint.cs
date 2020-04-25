@@ -9,19 +9,16 @@ public class instantiateHint : MonoBehaviour
     public GameObject donePaper;
     public GameObject doneSil;
 
-    AudioSource audioSource;
 
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        audioSource = GetComponent<AudioSource>();
-    }
+        Debug.Log("I HAVE enetered'");
+        GameObject otherGO = other.gameObject;
 
-    void OnCollisionEnter(Collision collision)
-    {
-        if (gameObject.name == "grabbable_handler")
+        if (otherGO.name == "grababble_handler")
         {
-            audioSource.Play();
-            Instantiate(target, Hint.transform.position, Quaternion.identity);
+            FindObjectOfType<_AudioManager>().Play("next");
+            Instantiate(Hint, target.transform.position, Quaternion.identity);
             Destroy(donePaper);
             Destroy(doneSil);
         }
