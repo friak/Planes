@@ -22,6 +22,8 @@ ScriptsOnlyBuild:
     - OVRPlayerController
     - OVRSceneSampleController
     - OVRScreenFade
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
@@ -2565,4 +2567,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/Planes.unity
-  playerPath: D:/Documents/GitHub/Planes/Game_Build/Mac_Build.app
+  playerPath: D:/Documents/GitHub/Planes/Game_Builds/Mac_Build/Mac_Build.app

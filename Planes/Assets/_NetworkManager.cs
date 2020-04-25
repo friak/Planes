@@ -18,6 +18,9 @@ public class _NetworkManager : MonoBehaviourPunCallbacks
             DontDestroyOnLoad(gameObject);
         }
 
+           
+            PhotonNetwork.AutomaticallySyncScene = true;
+        
     }
 
     void Start()

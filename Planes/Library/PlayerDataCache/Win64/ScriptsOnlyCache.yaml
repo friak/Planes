@@ -2565,4 +2565,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Planes.unity
-  playerPath: D:/Documents/GitHub/Planes/Game_Build/Planes.exe
+  playerPath: D:/Documents/GitHub/Planes/Game_Builds/Planes.exe
