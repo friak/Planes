@@ -455,13 +455,13 @@
     <Compile Include="Assets\Scripts\Photon\photonLobby.cs" />
     <Compile Include="Assets\Scripts\Sound.cs" />
     <Compile Include="Assets\Scripts\TrianglePrimitive.cs" />
-    <Compile Include="Assets\Scripts\_AudioManager.cs" />
     <Compile Include="Assets\Scripts\bg_rotation.cs" />
     <Compile Include="Assets\Scripts\followPhysics.cs" />
     <Compile Include="Assets\Scripts\instantiateHint.cs" />
     <Compile Include="Assets\Scripts\lookatTarget.cs" />
     <Compile Include="Assets\Scripts\paperGrabber.cs" />
     <Compile Include="Assets\SimpleGridShader\DistanceScaling.cs" />
+    <Compile Include="Assets\SoundManager.cs" />
     <None Include="Assets\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
     <None Include="Assets\Materials\Shaders\Show Inside.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />

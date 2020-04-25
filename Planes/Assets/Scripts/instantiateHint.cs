@@ -17,7 +17,7 @@ public class instantiateHint : MonoBehaviour
 
         if (otherGO.name == "grababble_handler")
         {
-            FindObjectOfType<_AudioManager>().Play("next");
+            FindObjectOfType<SoundManager>().Play("next");
             Instantiate(Hint, target.transform.position, Quaternion.identity);
             Destroy(donePaper);
             Destroy(doneSil);
