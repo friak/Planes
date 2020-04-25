@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class instantiateHint : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject target;
+    public GameObject Hint;
+    public GameObject donePaper;
+    public GameObject doneSil;
+
+    AudioSource audioSource;
+
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnCollisionEnter(Collision collision)
     {
-        
+        if (gameObject.name == "grabbable_handler")
+        {
+            audioSource.Play();
+            Instantiate(target, Hint.transform.position, Quaternion.identity);
+            Destroy(donePaper);
+            Destroy(doneSil);
+        }
+
     }
 }
