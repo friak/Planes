@@ -592,9 +592,6 @@
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
       <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -625,9 +622,6 @@
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
@@ -649,20 +643,14 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+      <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+      <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus">
-      <HintPath>D:/Documents/GitHub/Planes/Planes/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/2019.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
