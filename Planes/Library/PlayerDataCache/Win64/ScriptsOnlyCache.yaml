@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - followPhysics
     - lookatTarget
     - paperGrabber
+    - photonLobby
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRDebugInfo
@@ -22,6 +23,8 @@ ScriptsOnlyBuild:
     - OVRPlayerController
     - OVRSceneSampleController
     - OVRScreenFade
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
@@ -31,6 +34,8 @@ ScriptsOnlyBuild:
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Planes.unity:
     - Class: 1
@@ -127,6 +132,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14420}
     - Class: 114
       Script: {instanceID: 14618}
+    - Class: 114
+      Script: {instanceID: 29176}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -2562,6 +2569,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: photonLobby
   platform: 19
   scenePathNames:
   - Assets/Scenes/Planes.unity

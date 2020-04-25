@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_NetworkManager.cs" />
     <Compile Include="Assets\Chest Board Assets\Free Low Poly Chess Set\Example\Scripts\CameraRotate.cs" />
     <Compile Include="Assets\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
@@ -457,6 +456,8 @@
     <Compile Include="Assets\Scripts\followPhysics.cs" />
     <Compile Include="Assets\Scripts\lookatTarget.cs" />
     <Compile Include="Assets\Scripts\paperGrabber.cs" />
+    <Compile Include="Assets\Scripts\Photon\_NetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Photon\photonLobby.cs" />
     <None Include="Assets\Free_Rocks\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
