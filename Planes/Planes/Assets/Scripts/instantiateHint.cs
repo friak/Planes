@@ -7,7 +7,8 @@ public class instantiateHint : MonoBehaviour
    
     public GameObject Puzzle;
     public GameObject Paper;
-    public GameObject PaperExtra;
+    public GameObject PaperL;
+    public GameObject PaperR;
 
     public GameObject Hint;
     public GameObject donePaper;
@@ -24,7 +25,8 @@ public class instantiateHint : MonoBehaviour
             FindObjectOfType<SoundManager>().Play("next");
             Puzzle.SetActive(true);
             Paper.SetActive(true);
-            PaperExtra.SetActive(true);
+            PaperL.SetActive(true);
+            PaperR.SetActive(true);
             Hint.SetActive(true);
             Destroy(donePaper);
             Destroy(doneSil);
