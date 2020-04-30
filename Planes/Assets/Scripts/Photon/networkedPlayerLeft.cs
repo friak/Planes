@@ -24,7 +24,7 @@ public class networkedPlayerLeft : MonoBehaviourPunCallbacks
   
             this.transform.SetParent(playerLocal);
             this.transform.localPosition = Vector3.zero;
-
+            this.transform.localRotation = Quaternion.identity;
 
         }
 
