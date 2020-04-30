@@ -45,7 +45,8 @@ public class networkController : MonoBehaviourPunCallbacks, IInRoomCallbacks
     public override void OnJoinedRoom()
     {
         Debug.Log("You have now entered a room");
-        PhotonNetwork.Instantiate(Path.Combine("Prefab", "NetworkPlayer"), transform.position, Quaternion.identity, 0);
+        PhotonNetwork.Instantiate(Path.Combine("Prefab", "CustomHandLeft"), transform.position, Quaternion.identity, 0);
+        PhotonNetwork.Instantiate(Path.Combine("Prefab", "CustomHandRight"), transform.position, Quaternion.identity, 0);
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message)
